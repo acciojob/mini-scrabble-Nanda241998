@@ -1,4 +1,5 @@
 function LetterCount(){
-	var count = ('#evaluatedText').value().length;
-	alert(count);
+	var count = document.getElementById('#evaluatedText').value;
+	alert(count)
+	
 }
